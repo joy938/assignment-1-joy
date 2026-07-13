@@ -10,6 +10,10 @@ nav{
 box-sizing: border-box;
 padding: 0;
 }
+.logo{
+    width: 120px;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -18,14 +22,13 @@ ul{
 }
 a{
     text-decoration: none;
-    color: rgb(228, 224, 224);
+    color: rgb(20, 18, 18);
 }
 header{
     background-image:  url('../images/banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 90vh;
-   
     color: white;
   text-align: center;
     display: grid;
