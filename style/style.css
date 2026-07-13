@@ -21,7 +21,7 @@ a{
     color: rgb(228, 224, 224);
 }
 header{
-    background-image:  url('/images/banner.jpg');
+    background-image:  url('../images/banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 90vh;
@@ -453,3 +453,10 @@ footer {
     width: 24px;       
     height: 24px;      
     object-fit: contain; }
+
+.card-divider {
+    border: none;                  
+    border-top: 1px solid #e2e8f0; 
+    margin: 20px 0;               
+    width: 80%;                 
+}
