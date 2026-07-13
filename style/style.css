@@ -144,8 +144,8 @@ div section h1{
 {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-
-    height: 400px;
+align-items: stretch; /* i serached it on AI , amar 3 ta card soman hoccilo na,tai ami ei attribute use korci(amake eta ai suggest  korce) */
+  
     border: 1px solid #1D4ED8;
 }
 .price{
@@ -192,7 +192,6 @@ div section h1{
     background-color: transparent;   
     border: 1.5px solid #3b82f6;      /
     color: #2563eb;                  
-    
     
     display: block;                   
     width: 90%;                       
@@ -403,3 +402,54 @@ padding:70px 20px;
 }
 /* sir , i have also added this to my html 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> this was also my ai suggesion*/
+
+
+
+footer {
+    background-color: #0f172a; 
+    color: #94a3b8;           
+    padding: 40px 0 20px 0;   
+   
+}
+
+
+.footer-container {
+            
+    margin: 0 auto;            
+    padding: 0 20px;           
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    margin-bottom: 25px;            
+}
+
+
+
+
+.footer-socials {
+    display: flex;
+    gap: 20px;                      
+}
+
+
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid #334155; 
+    margin: 0 0 20px 0;
+}
+
+.footer-bottom {
+    text-align: center;          
+    font-size: 14px;
+    color: #64748b;
+}
+
+
+.social-icon img {
+    width: 24px;       
+    height: 24px;      
+    object-fit: contain; }
