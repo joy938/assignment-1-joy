@@ -36,8 +36,8 @@ header{
     margin-top: 50px;
 
 }
- .button-bottom{
-    margin-top: 300px;
+ .button-bottom {
+     margin-top: 300px;
     width: 155px;
     height: 45px;
     border-radius: 10px;
@@ -45,13 +45,14 @@ header{
     color: white;
     border-color: #1D4ED8;
 }
-button .button-right{
+.button-right{
     border-radius: 10px;
     background-color: #1D4ED8;
     color: white;
     border-color: #1D4ED8;
     width: 145px;
     height: 30px;
+    /* margin-top: 300px; */
 }
 section h1 {
     text-align: center;
@@ -215,5 +216,190 @@ div section h1{
   
     margin: 30px auto 10px auto;      
         border-radius: 8px;              }
-
         
+
+      
+.pro-card {
+    background-color: #0f172a;      
+    border: none;                   
+    padding: 30px;
+    border-radius: 16px;
+    height: auto ;
+        }
+  
+.pro-card .plan-title {
+    color: #3b82f6;                 
+    font-size: 14px;
+
+    font-size: 14px;         
+    font-weight: 700;        
+          
+    letter-spacing: 0.5px;   
+    display: block;         
+    margin-bottom: 5px;   
+        }
+.pro-card .plan-price {
+    color: #ffffff;                
+    font-size: 48px;
+
+     font-size: 44px;         
+    font-weight: 800;        
+       
+    margin: 0; 
+   }
+   .pro-card .plan-duration {
+    color: #64748b;                 
+    font-size: 14px;
+
+     font-size: 14px;         
+             
+    display: block;          
+    margin-top: 4px;
+   }
+   .pro-card .features-list {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+.pro-card .features-list li {
+    color: #94a3b8;                
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.get-pro {
+    background-color: #2563eb;      
+    color: #ffffff;                 
+    border: none;
+    display: block;
+    width: 100%;                    
+    padding: 14px ;                
+    margin-top: 25px;
+    border-radius: 8px;            
+    font-size: 16px;
+
+  
+   
+}
+
+
+
+
+/* ===========================
+   WHY ATTEND SECTION
+=========================== */
+
+.why-attend{
+    padding:90px 8%;
+    background:linear-gradient(180deg,#f8f9ff,#eef2ff);
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#1f2937;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    max-width:650px;
+    margin:auto;
+    color:#6b7280;
+    font-size:17px;
+    line-height:1.7;
+}
+
+.feature-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+
+}
+
+.feature-card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:35px 28px;
+
+    text-align:center;
+
+    transition:.35s ease;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.12);
+
+}
+
+.feature-card i{
+
+    width:80px;
+
+    height:80px;
+
+    line-height:80px;
+
+    border-radius:50%;
+
+    background:#4f46e5;
+
+    color:#fff;
+
+    font-size:30px;
+
+    margin-bottom:25px;
+
+}
+
+.feature-card h3{
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+    color:#111827;
+
+}
+
+.feature-card p{
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.section-title h2{
+
+font-size:32px;
+
+}
+
+.why-attend{
+
+padding:70px 20px;
+
+}
+
+}
+/* sir , i have also added this to my html 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> this was also my ai suggesion*/
